@@ -27,10 +27,10 @@ The two plugins share a primitives contract (`codebase-recon`, `ACCEPTED-RISKS.m
 
 ## Codex Compatibility
 
-This repository also includes Codex plugin manifests and a repo-local Codex marketplace for local installation:
+This repository also includes Codex plugin manifests and a repo-local Codex marketplace for local installation. From the repository root:
 
 ```bash
-codex plugin marketplace add .agents/plugins
+codex plugin marketplace add .
 codex plugin add dev-team@agentic-local
 codex plugin add security-assessment@agentic-local
 ```

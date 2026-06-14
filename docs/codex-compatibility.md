@@ -12,7 +12,7 @@ The Codex port exposes the existing `skills/*/SKILL.md` trees through `.codex-pl
 From the repository root:
 
 ```powershell
-codex plugin marketplace add .\.agents\plugins
+codex plugin marketplace add .
 codex plugin add dev-team@agentic-local
 codex plugin add security-assessment@agentic-local
 ```

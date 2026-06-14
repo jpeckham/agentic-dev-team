@@ -12,7 +12,7 @@ Use this as the Codex adapter for this repository. Do not inject Codex notes int
 From the repository root:
 
 ```bash
-codex plugin marketplace add .agents/plugins
+codex plugin marketplace add .
 codex plugin add dev-team@agentic-local
 codex plugin add security-assessment@agentic-local
 ```
