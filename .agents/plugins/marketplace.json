@@ -1,0 +1,32 @@
+{
+  "name": "agentic-local",
+  "interface": {
+    "displayName": "Agentic Local"
+  },
+  "plugins": [
+    {
+      "name": "dev-team",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dev-team"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "security-assessment",
+      "source": {
+        "source": "local",
+        "path": "./plugins/security-assessment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

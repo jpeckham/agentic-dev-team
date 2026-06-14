@@ -9,6 +9,11 @@ allowed-tools: Read, Glob, Grep, Bash
 
 # Upgrade
 
+> Codex compatibility: this skill uses Claude Code's plugin update records and
+> commands. For Codex, update the local plugin source, validate the
+> `.codex-plugin/plugin.json` manifest, reinstall with `codex plugin add`, and
+> start a new Codex thread.
+
 Role: worker. This command updates the dev-team plugin to the latest version and ensures its marketplace is set to auto-update going forward.
 
 Arguments: none.

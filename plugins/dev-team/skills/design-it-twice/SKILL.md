@@ -13,6 +13,11 @@ user-invocable: true
 
 # Design It Twice
 
+> Codex compatibility: when this skill says to spawn sub-agents with the
+> Claude Agent tool, use Codex's available subagent or multi-agent capability.
+> If unavailable, produce the alternative designs sequentially and state that
+> limitation.
+
 ## Overview
 
 Your first design idea is rarely your best. This skill generates multiple radically different interface designs for a module by dispatching parallel sub-agents with divergent constraints, then compares them so the user can make an informed choice. Based on "Design It Twice" from John Ousterhout's *A Philosophy of Software Design*.

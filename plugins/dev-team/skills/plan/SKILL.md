@@ -13,6 +13,11 @@ allowed-tools: Read, Write, Glob, Grep, Bash(mkdir *), Bash(date *), Bash(git br
 
 # Plan
 
+> Codex compatibility: resolve `${CLAUDE_PLUGIN_ROOT}` to the `plugins/dev-team`
+> plugin root if the variable is unset. Prompt-template references under
+> `prompts/` are source assets; read them directly from the plugin root in
+> Codex.
+
 Role: orchestrator. This command creates a structured plan — it does not implement anything.
 
 You have been invoked with the `/plan` command.

@@ -2,6 +2,10 @@
 
 Deep security assessment + adversarial ML red-team for Claude Code. Companion to [`dev-team`](../dev-team/), which provides the reusable primitives (codebase-recon, ACCEPTED-RISKS convention, versioned primitives contract, SARIF-first tool orchestration).
 
+## Codex Compatibility
+
+This plugin can be installed locally in Codex through the repo-local marketplace after installing `dev-team`. See [Codex Compatibility](../../docs/codex-compatibility.md) for the Codex install path and the compatibility boundary for Claude-only agents, hooks, commands, and prompts.
+
 ## Design
 
 Inverts the usual "LLM does everything" pattern: **deterministic tools do the detection**, hooks automate invocation, and LLM agents are reserved for what they do best — business-logic reasoning, narrative annotation, cross-repo attack chains, executive prose, and the judgment stages of FP-reduction.

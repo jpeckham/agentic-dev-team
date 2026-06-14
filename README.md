@@ -25,6 +25,10 @@ Two Claude Code plugins for engineering workflows. Install one or both.
 
 The two plugins share a primitives contract (`codebase-recon`, `ACCEPTED-RISKS.md`, unified finding envelope) that lives in `dev-team`. Install that plugin first; add the security companion when you need it.
 
+## Codex Compatibility
+
+This repository also includes Codex plugin manifests and a repo-local Codex marketplace for local installation. See [Codex Compatibility](docs/codex-compatibility.md) for install commands, supported Codex surfaces, and the boundary around Claude-only agents, hooks, and slash-command assets.
+
 ## Plugins
 
 | Plugin | What it does | Key commands | Required tools | Optional tools |

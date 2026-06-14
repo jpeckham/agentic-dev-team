@@ -12,6 +12,11 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash(jq *), Bash(ls *), Bash(mkdir
 
 # Project Setup
 
+> Codex compatibility: this skill bootstraps Claude Code project files such as
+> `CLAUDE.md`, `.claude/settings.json`, and Claude hook entries. In Codex,
+> prefer `AGENTS.md`, Codex configuration, and Codex hook configuration for
+> durable project behavior.
+
 Role: orchestrator. This command bootstraps project-level configuration by detecting the tech stack and generating appropriate files.
 
 You have been invoked with the `/setup` command.

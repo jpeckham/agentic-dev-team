@@ -12,6 +12,13 @@ required-primitives-contract: ^1.0.0
 
 # Security Assessment Pipeline
 
+> Codex compatibility: when this skill references `${CLAUDE_PLUGIN_ROOT}`,
+> resolve it to the `plugins/security-assessment` plugin root if the
+> environment variable is unset. When it says to dispatch agents with the
+> Claude Agent tool, use Codex's available subagent or multi-agent capability;
+> if no such capability is available, run the phases sequentially and preserve
+> the same inputs and outputs.
+
 The `/security-assessment` command executes this multi-phase pipeline over
 one or more target repos. This skill is authoritative for phase order,
 dependencies, artifacts, and failure semantics.

@@ -13,6 +13,10 @@ allowed-tools: Read, Edit, Bash
 
 # Add Plugin
 
+> Codex compatibility: this skill manages Claude Code plugin installation and
+> `.claude/settings.json`. For Codex plugin installation, use
+> `docs/codex-compatibility.md` and the repo-local Codex marketplace instead.
+
 Role: implementation. This skill installs a Claude Code plugin and
 adds it to `.claude/settings.json` so the project's plugin set is
 reproducible.

@@ -1,0 +1,39 @@
+{
+  "name": "security-assessment",
+  "version": "3.2.0",
+  "description": "Security assessment and red-team workflow skills for Codex.",
+  "author": {
+    "name": "Bryan Finster",
+    "email": "bdfinst@users.noreply.github.com",
+    "url": "https://github.com/bdfinst"
+  },
+  "homepage": "https://github.com/bdfinst/agentic-dev-team",
+  "repository": "https://github.com/bdfinst/agentic-dev-team",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "assessment",
+    "sast",
+    "red-team",
+    "compliance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Security Assessment",
+    "shortDescription": "Security assessment, FP reduction, and compliance skills.",
+    "longDescription": "Codex skills for tool-first security assessment workflows, false-positive reduction, compliance mapping, and adversarial ML red-team guidance. Install dev-team alongside this plugin for shared workflow primitives.",
+    "developerName": "Bryan Finster",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/bdfinst/agentic-dev-team",
+    "defaultPrompt": [
+      "Run a security assessment plan.",
+      "Reduce false positives in findings.",
+      "Map findings to compliance controls."
+    ],
+    "brandColor": "#DC2626"
+  }
+}

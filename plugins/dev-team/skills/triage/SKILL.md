@@ -12,6 +12,10 @@ allowed-tools: Read, Glob, Grep, Bash, Write, Agent
 
 # Bug Triage
 
+> Codex compatibility: when this skill mentions the Claude Agent tool, use
+> Codex's available subagent or multi-agent capability. If unavailable, perform
+> the same investigation directly and report the limitation.
+
 Role: worker.
 
 Investigate a bug hands-off, find root cause, and write a TDD fix plan to a

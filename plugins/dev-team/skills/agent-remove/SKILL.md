@@ -13,6 +13,10 @@ allowed-tools: Read, Edit, Bash(rm *), Bash(ls *), Bash(git rm *), Bash(grep -r 
 
 # Agent Remove
 
+> Codex compatibility: this skill removes Claude Code agent files and related
+> registry references. It does not remove Codex skills or Codex plugin
+> manifest entries.
+
 Role: implementation. This skill removes an agent and all its references
 from the system — it does not modify agent behavior or content.
 

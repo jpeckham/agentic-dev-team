@@ -1,0 +1,39 @@
+{
+  "name": "dev-team",
+  "version": "6.7.0",
+  "description": "Persona-driven development workflow skills for Codex.",
+  "author": {
+    "name": "Bryan Finster",
+    "email": "bdfinst@users.noreply.github.com",
+    "url": "https://github.com/bdfinst"
+  },
+  "homepage": "https://github.com/bdfinst/agentic-dev-team",
+  "repository": "https://github.com/bdfinst/agentic-dev-team",
+  "license": "MIT",
+  "keywords": [
+    "development",
+    "planning",
+    "review",
+    "testing",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dev Team",
+    "shortDescription": "Planning, review, and engineering workflow skills.",
+    "longDescription": "Codex skills for structured planning, implementation, review, testing, and delivery workflows. Claude-only agents, hooks, and slash-command assets remain available in the source tree but are not loaded as Codex-native surfaces.",
+    "developerName": "Bryan Finster",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/bdfinst/agentic-dev-team",
+    "defaultPrompt": [
+      "Plan this feature before implementation.",
+      "Review this change for defects.",
+      "Create a tested implementation plan."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
