@@ -8,10 +8,6 @@ allowed-tools: Bash
 
 # Version
 
-> Codex compatibility: this skill reports Claude Code install records from
-> `~/.claude`. Codex users should inspect `.codex-plugin/plugin.json` or
-> `codex plugin list` for Codex installation state.
-
 Role: worker. This command reports the installed plugin version. It is a purely
 mechanical lookup — no reasoning, no file-by-file searching.
 

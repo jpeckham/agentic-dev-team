@@ -14,10 +14,6 @@ user-invocable: true
 
 # Agent Create
 
-> Codex compatibility: this skill creates Claude Code agent files. Codex does
-> not load these files as plugin agents; port durable behavior into Codex
-> skills, project instructions, or current-session subagent workflows.
-
 Automates production of Claude Code sub-agent files that pass schema validation
 and stay within token-efficiency budgets. For conventions, anti-patterns, and
 registration checklists, see `skills/agent-skill-authoring/SKILL.md`.

@@ -12,11 +12,6 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash, Agent, AskUserQuestion
 
 # Build
 
-> Codex compatibility: resolve `${CLAUDE_PLUGIN_ROOT}` to the `plugins/dev-team`
-> plugin root if the variable is unset. Use Codex subagent or multi-agent
-> capability for implementation dispatch when available; otherwise execute the
-> same slices sequentially.
-
 Role: orchestrator. This command implements an approved plan — it does not create plans or specs.
 
 You have been invoked with the `/build` command.

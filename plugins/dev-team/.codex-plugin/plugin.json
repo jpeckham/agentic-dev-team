@@ -30,9 +30,9 @@
     ],
     "websiteURL": "https://github.com/bdfinst/agentic-dev-team",
     "defaultPrompt": [
+      "Use codex-compatibility for this plugin.",
       "Plan this feature before implementation.",
-      "Review this change for defects.",
-      "Create a tested implementation plan."
+      "Review this change for defects."
     ],
     "brandColor": "#2563EB"
   }

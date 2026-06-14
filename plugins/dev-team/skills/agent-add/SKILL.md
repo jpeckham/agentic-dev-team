@@ -17,10 +17,6 @@ allowed-tools: Read, Write, Edit, Grep, Glob, WebFetch, Skill(agent-audit *)
 
 # Agent Add
 
-> Codex compatibility: this skill manages Claude Code agent files. Codex users
-> should create or update Codex skills for reusable behavior instead of adding
-> Claude agent definitions.
-
 Role: implementation.
 
 ## Implementation constraints

@@ -21,12 +21,6 @@ allowed-tools: >-
 
 # Code Review
 
-> Codex compatibility: when this skill mentions the Claude Agent tool, dispatch
-> equivalent Codex subagents or multi-agent tasks if available. If not
-> available, run the selected review perspectives sequentially and preserve the
-> same JSON finding contract. Resolve `${CLAUDE_PLUGIN_ROOT}` to the
-> `plugins/dev-team` plugin root when the variable is unset.
-
 Role: orchestrator. Route work to review agents; do not review code yourself. Pass each agent's tier alias (from its `model:` frontmatter) when dispatching — the PreToolUse hook `hooks/agent-model-resolve.sh` resolves it to the active snapshot per the Resolution Procedure in `agents/orchestrator.md`.
 
 Output templates and JSON schemas: [`code-review/output-format.md`](code-review/output-format.md). Example report: [`code-review/examples/sample-report.md`](code-review/examples/sample-report.md).

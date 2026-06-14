@@ -21,6 +21,8 @@ Install `dev-team` first. `security-assessment` assumes the shared development a
 
 Start a new Codex thread after installing or updating either plugin so Codex can discover the new skills.
 
+For runtime mapping questions inside Codex, invoke the `codex-compatibility` skill from `dev-team`. The compatibility rules live there and in this document instead of being repeated inside every Claude Code skill.
+
 ## What Works In Codex
 
 - Codex discovers plugin skills from each plugin's `skills/` directory.

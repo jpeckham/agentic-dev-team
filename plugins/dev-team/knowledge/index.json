@@ -1771,6 +1771,16 @@
       "anchor": "9-write-pre-commit-gate-file"
     }
   },
+  "plugins/dev-team/skills/codex-compatibility/SKILL.md": {
+    "Install": {
+      "summary": "From the repository root:",
+      "anchor": "install"
+    },
+    "Runtime Mapping": {
+      "summary": "Slash commands become skill invocations or natural-language Codex tasks.",
+      "anchor": "runtime-mapping"
+    }
+  },
   "plugins/dev-team/skills/competitive-analysis/SKILL.md": {
     "Overview": {
       "summary": "Systematic comparison of the dev-team plugin against another plugin, tool, feature set, or idea.",
