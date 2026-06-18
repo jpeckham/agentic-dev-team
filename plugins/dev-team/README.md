@@ -4,6 +4,10 @@ A Claude Code plugin that adds a full persona-driven AI development team to any 
 
 For the workflow overview, team philosophy, and three-phase (Research → Plan → Implement) process, see the [repository README](../../README.md).
 
+## Codex Compatibility
+
+This plugin can be installed locally in Codex through the repo-local marketplace. See [Codex Compatibility](../../docs/codex-compatibility.md) for the Codex install path and the compatibility boundary for Claude-only agents, hooks, prompts, and slash commands.
+
 ## Install
 
 ### Prerequisites
